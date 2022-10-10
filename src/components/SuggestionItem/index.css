@@ -1,0 +1,23 @@
+.suggestion-card {
+  display: flex;
+  width: 400px;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.suggestion-title {
+  color: #64748b;
+  margin: 5px;
+}
+
+.arrow {
+  height: 15px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  .suggestion-card {
+    width: 250px;
+  }
+}
